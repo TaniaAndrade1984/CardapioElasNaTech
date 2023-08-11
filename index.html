@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <meta author="Tânia Andrade">
+    <title>Sweets Mafê</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#pedido">Pedidos</a></li>
+                <li><a href="#horario">Horário de Funcionamento</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+        </nav>
+    </header>
+    <main>
+    <section class="info">
+        <h1 class="texto-h1">Maravilhosas Tortas</h1>
+        <p class="texto-p">Doce... Doce... Doce... A Vida é um Doce!!!</p>
+    </section>
+    <section id="sobre">
+        <div class="sobre"><h1>Sobre</h1><p>Bem-vindos ao mundo encantado de sabores que é a "Sweet Mafê". Aqui, cada doce é uma história contada através de ingredientes cuidadosamente selecionados e de uma paixão inigualável pela arte da confeitaria.
+            Na "Sweet Mafê", não estamos apenas oferecendo doces; estamos proporcionando uma experiência que envolve todos os sentidos. Cada doce é uma pequena explosão de felicidade.
+            Acreditamos que a qualidade está nos detalhes, e é por isso que trabalhamos apenas com os melhores ingredientes. Desde o melhor chocolate até as frutas mais frescas, cada componente é escolhido para garantir que nossas criações atinjam um nível de excelência que você merece.
+            Nossa doceria não é apenas um espaço físico; é um refúgio de doçura e alegria, onde a tradição da confeitaria se une à inovação criativa. Cada visita à "Sweet Mafê" é uma oportunidade de saborear algo novo, algo que aquece o coração e traz um sorriso aos lábios.
+            Seja para um agrado pessoal, um presente inesquecível ou para compartilhar momentos especiais com amigos e familiares, a "Sweet Mafê" está aqui para adoçar sua vida. Venha nos visitar e permita-nos levar você a uma jornada única através dos mais deliciosos doces. Sua próxima doce lembrança começa aqui.
+            </p></div>
+        
+    </section>
+
+
+    <section id="cardapio">
+        <div class="cardapio"><h1>Cardápio</h1></div>
+    </section>
+   
+    <section class="menu">
+        <div class="product">
+            <h2>Torta <br> Holandesa</h2>
+            <img src="./imagens/torta tailandesa.png" alt="Torta Holandesa" width="55%">
+            <p>Sobremesa brasileira feita com um leve creme espesso e frio à base de gemas, 
+            açúcar, manteiga, creme de leite e essência de baunilha, com uma cobertura suave 
+            de leite, margarina, açúcar e achocolatado, com biscoitos banhados em chocolate 
+            ao leite ao redor.</p>
+            <span class="price">Valor: R$ 70,00</span>
+        </div>
+        
+        <div class="product">
+            <h2>Torta de Morango</h2>
+            <img src="./imagens/torta morango.png" alt="Torta de Morango" width="100%">
+            <p>Clássica torta de morango  com massa leve, recheio de creme de baunilha, geleia 
+            de morango, decorada com morangos e amendoim.</p>
+            <span class="price">Valor: R$ 65,00</span>
+        </div>
+        
+        <div class="product">
+            <h2>Torta Banoffee</h2>
+            <img src="./imagens/torta banoffe.png" alt="Torta Banoffee" width="100%">
+            <p>Torta de origem inglesa, recheada com banana, doce de leite e chantily.</p>
+            <span class="price">Valor: R$ 60,00</span>
+        </div>
+
+        <div class="product">
+            <h2>Torta de Limão</h2>
+            <img src="./imagens/torta limao.png" alt="Torta de Limão" width="100%">
+            <p>Torta de limão é deliciosa torta com a massa crocante de biscoito, leite 
+            condensado, creme de leite, raspas de limão e marshmallow.</p>
+            <span class="price">Valor: R$ 55,00</span>
+        </div>
+
+        <div class="product">
+            <h2>Torta de Chocolate</h2>
+            <img src="./imagens/torta chocolate.png" alt="Torta de Chocolate" width="100%">
+            <p>Torta com base de massa de pão de ló de chocolate, camada de mousse de chocolate 
+            meio amargo, decorada com chocolate ao leite.</p>
+            <span class="price">Valor: R$ 60,00</span>
+        </div>
+    </section>
+    <section id="pedido" >
+        <div class="pedido"><h1>Pedidos</h1></div>
+    <form class="form" >
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="produto">Produto:</label>
+        <input type="text" id="produto" name="produto" required><br><br>
+        
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required><br><br>
+        
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        
+        <button type="submit">Enviar Pedido</button>
+    </form>
+</section>
+<section id="horario" >
+    <div class="horario"><h1>Horário de Funcionamento</h1>
+        <p>Segunda a Sábado: das 9h às 18h</p></div>
+</section>
+
+<section id="mapa">
+    <div class="localizacao"><h1>Localização</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2174.5260643870047!2d-46.65357520256485!3d-23.564767474696875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1691772157806!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+</main>
+    <section class="footer">
+        <p>Localização: Rua Luiz Antônio de Abreu, 1114, Jardim das Vertentes - Butantã - São Paulo/SP</p>
+        <p>Realize seu pedido: (11) 99999-9999</p>
+        <p>Fotos por: Fotógrafo123</p>
+    </section>
+</body>
+</html>
